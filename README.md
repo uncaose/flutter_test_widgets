@@ -4,6 +4,6 @@ test flutter widgets
 
 ## tests
 
-Flutter’s SafeArea widget keeps pesky *notification bars and phone notches* from encroaching on your app's UI. It uses a MediaQuery to check the dimensions of the screen and pads its child Widget to match, making sure *your app is safe on both iOS and Android*! 
+줄과 행에 공간이 부족할 때는 Wrap을 사용해 보세요! Wrap 위젯은 자식을 줄이나 행으로 배치하고 공간이 부족해지면 자동으로 줄이나 행을 바꿔줍니다. 방향, 정렬, 그리고 공간 속성기능이 여러분이 원하시는 디자인을 그대로 만드는 데 도움이 될 것입니다.
 
-- [Learn more about SafeArea](http://bit.ly/2Ky7lC4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z5iw2SeFx2M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

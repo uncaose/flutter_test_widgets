@@ -27,6 +27,62 @@ class _WelcomeState extends State<Welcome> {
                 );
               },
             ),
+            Wrap(
+              direction: Axis.horizontal,
+              spacing: 8.0,
+              runSpacing: -4.0,
+              children: [
+                RaisedButton(child: Text('BUTTO1'), onPressed: null),
+                RaisedButton(child: Text('BUTTO1'), onPressed: null),
+                RaisedButton(child: Text('BUTTO1'), onPressed: null),
+                RaisedButton(child: Text('BUTTO1'), onPressed: null),
+                RaisedButton(child: Text('BUTTO1'), onPressed: null),
+              ],
+            ),
+            Wrap(
+              direction: Axis.vertical,
+              spacing: 0.0,
+              runSpacing: 0.0,
+              children: [
+                RaisedButton(child: Text('BUTTO2'), onPressed: null),
+                RaisedButton(child: Text('BUTTO2'), onPressed: null),
+              ],
+            ),
+            Wrap(
+              direction: Axis.vertical,
+              crossAxisAlignment: WrapCrossAlignment.end,
+              spacing: 0.0,
+              runSpacing: 0.0,
+              children: [
+                RaisedButton(child: Text('BUTTO3'), onPressed: null),
+                RaisedButton(child: Text('BUTTO3'), onPressed: null),
+              ],
+            ),
+            Wrap(
+              verticalDirection: VerticalDirection.up,
+              alignment: WrapAlignment.center,
+              spacing: 8.0,
+              runSpacing: 0.0,
+              children: [
+                RaisedButton(child: Text('BUTTO4'), onPressed: null),
+                RaisedButton(child: Text('BUTTO4'), onPressed: null),
+                RaisedButton(child: Text('BUTTO4'), onPressed: null),
+                RaisedButton(child: Text('BUTTO4'), onPressed: null),
+                RaisedButton(child: Text('BUTTO4'), onPressed: null),
+              ],
+            ),
+            Wrap(
+              alignment: WrapAlignment.end,
+              spacing: 8.0,
+              runSpacing: 0.0,
+              children: [
+                RaisedButton(child: Text('BUTTO5'), onPressed: null),
+                RaisedButton(child: Text('BUTTO5'), onPressed: null),
+                RaisedButton(child: Text('BUTTO5'), onPressed: null),
+                RaisedButton(child: Text('BUTTO5'), onPressed: null),
+                RaisedButton(child: Text('BUTTO5'), onPressed: null),
+              ],
+            ),
             RaisedButton(
               child: Text('SafeArea'),
               onPressed: () {
